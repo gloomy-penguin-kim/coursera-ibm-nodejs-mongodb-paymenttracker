@@ -1,0 +1,32 @@
+{
+  "name": "paymenttracker",
+  "version": "1.0.0",
+  "description": "coursera-ibm-nodejs-mongodb-paymenttracker https://www.coursera.org/learn/intermediate-back-end-development-with-node-js-mongodb/",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gloomy-penguin-kim/coursera-ibm-nodejs-mongodb-paymenttracker.git"
+  },
+  "keywords": [
+    "coursera",
+    "ibm",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "kim jones",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gloomy-penguin-kim/coursera-ibm-nodejs-mongodb-paymenttracker/issues"
+  },
+  "homepage": "https://github.com/gloomy-penguin-kim/coursera-ibm-nodejs-mongodb-paymenttracker#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  }
+}
